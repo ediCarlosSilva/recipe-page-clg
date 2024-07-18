@@ -11,8 +11,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -22,7 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [Github repo](https://github.com/ediCarlosSilva/recipe-page-clg)
-- Live Site URL: [Website](https://your-live-site-url.com)
+- Live Site URL: [Website](https://edicarlossilva.github.io/recipe-page-clg/)
 
 ## My process
 
