@@ -1,0 +1,57 @@
+@use "../util/" as *;
+
+.banner {
+  margin-bottom: rem(35);
+
+  img {
+    margin-bottom: rem(42);
+    max-width: 100%;
+    padding: 0;
+
+    @include breakpoint(medium) {
+      margin: rem(39);
+      max-width: calc(100% - 2 * rem(39));
+      border-radius: rem(16);
+    }
+  }
+
+  &__content {
+    h1 {
+      font-family: var(--font-young);
+      font-size: rem(35);
+      font-weight: 400;
+      margin-bottom: rem(35);
+
+      @include breakpoint(medium) {
+        font-size: rem(40);
+      }
+    }
+
+    p {
+      line-height: rem(25);
+    }
+  }
+
+  &__preparation {
+    border-radius: rem(16);
+    background: var(--rose-white);
+    padding: rem(25) rem(16);
+
+    @include breakpoint(medium) {
+      padding: rem(30);
+    }
+
+    h3 {
+      color: var(--dark-raspberry);
+    }
+
+    li {
+      line-height: 2;
+
+      span {
+        font-weight: 700;
+        color: var(--wenge-brown);
+      }
+    }
+  }
+}
