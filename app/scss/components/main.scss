@@ -1,0 +1,32 @@
+@use "../util/" as *;
+
+.recipe {
+  &__destaque {
+    color: var(--wenge-brown);
+
+    border-bottom: 2px solid var(--light-grey);
+    padding-bottom: rem(32);
+
+    h3 {
+      color: var(--nutmeg);
+      font-family: var(--font-young);
+      font-weight: 400;
+      letter-spacing: 1.1px;
+      font-size: 24px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: rem(24);
+    }
+
+    li {
+      line-height: 2rem;
+      padding-left: rem(8);
+
+      @include breakpoint(medium) {
+        padding-left: rem(16);
+      }
+    }
+  }
+}
