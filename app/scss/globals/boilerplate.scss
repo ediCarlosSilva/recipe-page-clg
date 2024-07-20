@@ -34,3 +34,15 @@ body {
   height: 1px;
   overflow: hidden;
 }
+
+.attribution {
+  display: none;
+
+  @include breakpoint(medium) {
+    display: block;
+    left: 0;
+    margin-top: rem(16);
+    position: absolute;
+    right: 0;
+  }
+}

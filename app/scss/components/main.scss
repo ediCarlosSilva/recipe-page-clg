@@ -6,6 +6,7 @@
 
     border-bottom: 2px solid var(--light-grey);
     padding-bottom: rem(32);
+    margin-bottom: rem(35);
 
     h3 {
       color: var(--nutmeg);
@@ -15,7 +16,8 @@
       font-size: 24px;
     }
 
-    ul {
+    ul,
+    ol {
       margin: 0;
       padding-left: rem(24);
     }
@@ -27,6 +29,46 @@
       @include breakpoint(medium) {
         padding-left: rem(16);
       }
+
+      span {
+        font-weight: 700;
+      }
     }
+
+    li::marker {
+      color: var(--nutmeg);
+      font-weight: 700;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    tr {
+      line-height: 42px;
+    }
+
+    tr:last-child > td {
+      border: 0;
+    }
+
+    td {
+      border-bottom: 2px solid var(--light-grey);
+    }
+
+    td:first-child {
+      // padding-left: rem(24);
+    }
+
+    td:last-child {
+      color: var(--nutmeg);
+      font-weight: 700;
+    }
+  }
+
+  &__destaque:last-child {
+    border-bottom: 0;
+    margin: 0;
   }
 }
